@@ -1,0 +1,16 @@
+{
+    "name": "reloader",
+    "homepage": "http://github.com/konteck/reloader",
+    "author": {
+        "name": "Alex Movsisyan",
+        "url": "http://github.com/konteck"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/konteck"
+    },
+    "description": "Restart application on file change",
+    "keywords": ["development", "restart", "reload"],
+    "version": "1.0.1",
+    "main": "./lib/reloader.js"
+}
