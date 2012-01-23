@@ -9,8 +9,9 @@
         "type": "git",
         "url": "http://github.com/konteck"
     },
-    "description": "Restart application on file change",
+    "description": "Restart application on file change, work even on Windows",
     "keywords": ["development", "restart", "reload"],
-    "version": "1.0.1",
-    "main": "./lib/reloader.js"
+    "version": "1.0.2",
+    "main": "./lib/reloader.js",
+    "engine": "node >= 0.6.0"
 }
