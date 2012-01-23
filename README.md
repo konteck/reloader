@@ -3,7 +3,13 @@
 Reload your Node.js application if it's source code changed.
 Tested on Windows, Mac OSX, Linux.
 
-How to use:
+### How to install:
+
+```js
+npm install reloader
+```
+
+### How to use:
 
 To use it just include 'reloader' as usual NodeJS module
 and put code that must be started after every restart in
@@ -41,8 +47,10 @@ app.get('/', function (req, res) {
 });
 ```
 
-Parameters
+### Parameters
 
+```js
 watchModules: false
-onRestart: function
-onStart: function
+onRestart: function() {}
+onStart: function() {}
+```
